@@ -25,4 +25,5 @@
 	0   //系统定义返回值为0系统执行成功，否则失败
 	akaedu@akaedu-desktop:~/work/lesson6$ vim lesson6.c
 	akaedu@akaedu-desktop:~/work/lesson6$
+###要用 git push
  
