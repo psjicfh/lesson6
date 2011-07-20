@@ -43,3 +43,55 @@
 	history 10 //显示最近10行历史命令
   	history >h.md  //把终端上的命令打印到文件h.md 里面
 
+###不退出vim 在vim 基础上新打开一个bash
+	例如：vim lesson6.c
+              做修改后在普通模式下“:w” 保存
+	      ":sh"：在vim上打开一个新bash 编译若发现错误
+	      “exit”或“ctrl+d”返回vim  在普通模式下“u”：撤销 ctrl+r:前进
+###例如：
+	#include<stdio.h>
+	int main(int argc, const char *argvc[])
+	{
+	    int i = 1;
+	    if (i != 1)
+	    {
+		printf("hello world\n");
+		return 1;
+	    }
+	    else
+		return 0;
+	}
+	akaedu@akaedu-desktop:~/work/lesson6$ gcc lesson6.c
+	akaedu@akaedu-desktop:~/work/lesson6$ echo $?
+	0   //返回0表示执行正确
+
+	#include<stdio.h>
+        int main(int argc, const char *argvc[])
+        {
+            int i = 3;
+            if (i != 1)
+            {
+                printf("hello world\n");
+                return 1;
+            }
+            else
+                return 0;
+        }
+        akaedu@akaedu-desktop:~/work/lesson6$ gcc lesson6.c
+	akaedu@akaedu-desktop:~/work/lesson6$ ls
+	a.out  h.md  lesson6  lesson6.c  lesson6.html  lesson6.md  push
+	akaedu@akaedu-desktop:~/work/lesson6$ ./a.out
+	hello world
+	akaedu@akaedu-desktop:~/work/lesson6$ echo $?
+	1   //返回1表示执行错误
+
+###生成汇编文件
+	kaedu@akaedu-desktop:~/work/lesson6$ gcc -S lesson6.c //生成汇编文件
+	akaedu@akaedu-desktop:~/work/lesson6$ ls
+	a.out  h.md  lesson6  lesson6.c  lesson6.html  lesson6.md  lesson6.s  pu	sh
+	akaedu@akaedu-desktop:~/work/lesson6$ file lesson6.s //查看文件属性
+	lesson6.s: ASCII assembler program text
+	akaedu@akaedu-desktop:~/work/lesson6$ vim lesson6.s //看看汇编吓死你 哈
+		      
+	
+
