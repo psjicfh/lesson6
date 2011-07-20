@@ -99,11 +99,13 @@
         editor = vim
     更改文件后作版本
     akaedu@akaedu-desktop:~/work/lesson6/project$ git commit -a //后面的省略
+    执行上步骤后进入一个vim页面
 
 	canshu
 
 	argc:the number of the arguments
 	argvc:the string is these arguments
+
     注：第一行是标题 空一行后在些这次做版本的注释
     因为在 “.gitconfig”文件中定义了默认编辑器是vim 编辑器所以 写完后“:wq”
     akaedu@akaedu-desktop:~/work/lesson6/project$ tig
