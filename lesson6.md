@@ -111,3 +111,8 @@
     akaedu@akaedu-desktop:~/work/lesson6/project$ tig
     按 d 后就可以看见 版本的注释了
     push到github网站上也可以看到版本的注释的
+	
+###几个快捷键
+	shift+z: 强制退出 vim
+	la: 查看隐藏文件
+	git add .: 若只有一个文件被修改则省略文件名
