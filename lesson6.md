@@ -55,28 +55,28 @@
 	    int i = 1;
 	    if (i != 1)
 	    {
-                printf("hello world\n");
-                return 1;
+		printf("hello world\n");
+		return 1;
 	    }
 	    else
-		return 0;
+	    return 0;
 	}
 	akaedu@akaedu-desktop:~/work/lesson6$ gcc lesson6.c
 	akaedu@akaedu-desktop:~/work/lesson6$ echo $?
 	0   //返回0表示执行正确
 
 	#include<stdio.h>
-        int main(int argc, const char *argvc[])
-        {
-            int i = 3;
-            if (i != 1)
-            {
-                printf("hello world\n");
-                return 1;
-            }
-            else
-                return 0;
-        }
+	int main(int argc, const char *argvc[])
+	{
+	    int i = 3;
+	    if (i != 1)
+	    {
+		printf("hello world\n");
+		return 1;
+	    }
+	    else
+		return 0;
+	}
         akaedu@akaedu-desktop:~/work/lesson6$ gcc lesson6.c
 	akaedu@akaedu-desktop:~/work/lesson6$ ls
 	a.out  h.md  lesson6  lesson6.c  lesson6.html  lesson6.md  push
