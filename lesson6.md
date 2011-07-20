@@ -1,11 +1,11 @@
 #lesson6笔记
 
     #include<stdio.h>
-    int main(void)
-    {
-        printf("hello world\n");
-        return 0;
-    }
+	int main(void)
+	{
+		printf("hello world\n");
+		return 0;
+	}
 	akaedu@akaedu-desktop:~$ cd work/lesson6
 	akaedu@akaedu-desktop:~/work/lesson6$ ls
 	lesson6  lesson6.c  lesson6.md
@@ -55,8 +55,8 @@
 	    int i = 1;
 	    if (i != 1)
 	    {
-		printf("hello world\n");
-		return 1;
+                printf("hello world\n");
+                return 1;
 	    }
 	    else
 		return 0;
