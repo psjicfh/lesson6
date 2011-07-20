@@ -55,8 +55,8 @@
 	    int i = 1;
 	    if (i != 1)
 	    {
-		printf("hello world\n");
-		return 1;
+	        printf("hello world\n");
+	        return 1;
 	    }
 	    else
 	    return 0;
@@ -71,8 +71,8 @@
 	    int i = 3;
 	    if (i != 1)
 	    {
-		printf("hello world\n");
-		return 1;
+	        printf("hello world\n");
+	        return 1;
 	    }
 	    else
 		return 0;
