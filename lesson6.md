@@ -108,3 +108,4 @@
     因为在 “.gitconfig”文件中定义了默认编辑器是vim 编辑器所以 写完后“:wq”
     akaedu@akaedu-desktop:~/work/lesson6/project$ tig
     按 d 后就可以看见 版本的注释了
+    push到github网站上也可以看到版本的注释的
