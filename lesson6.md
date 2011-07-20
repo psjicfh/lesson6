@@ -39,4 +39,7 @@
 	To git@github.com:psjicfh/lesson6.git
 	   4e69560..4e4761e  master -> master
 	akaedu@akaedu-desktop:~/work/lesson6$ 
+	
+	history 10 //显示最近10行历史命令
+  	history >h.md  //把终端上的命令打印到文件h.md 里面
 
